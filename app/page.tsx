@@ -19,7 +19,7 @@ export default function Home() {
     setInput("");
   } else if (input[0] == "E" || input[0] == "I" || input[0] == "f"){
     setInput("");
-    if (isOperator(value)) {
+    if (isOperator(value) || value == "=") {
     setInput("");
     } else {
     setInput(value);
