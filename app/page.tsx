@@ -17,6 +17,13 @@ export default function Home() {
   const handleClick = (value: string) => {
   if (value === "C") {
     setInput("");
+  } else if (input[0] == "E" || input[0] == "I" || input[0] == "f"){
+    setInput("");
+    if (isOperator(value)) {
+    setInput("");
+    } else {
+    setInput(value);
+    }
   } else if (isOperator(value)) { 
     const last = input.slice(-1);
     if (isOperator(last)) {
