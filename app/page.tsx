@@ -19,6 +19,7 @@ export default function Home() {
     setInput("");
   } else if (input[0] == "E" || input[0] == "I" || input[0] == "f"){
     setInput("");
+    // alert("E,I,fを検知")
     if (isOperator(value) || value == "=") {
     setInput("");
     } else {
