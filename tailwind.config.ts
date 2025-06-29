@@ -1,6 +1,5 @@
 export default {
-  darkMode: false, // ← これがポイント！
-  // ↓以下はそのまま
+  darkMode: 'media',
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
